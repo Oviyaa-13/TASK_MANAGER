@@ -5,7 +5,7 @@ A modern, dark-themed task management application built with React, TypeScript, 
 ## Features
 
 - Social authentication with Google and GitHub
-- Add, edit, delete, and filter tasks
+- Add, edit, and delete tasks
 - Set due dates for tasks
 - Responsive, beautiful dark UI with purple accents
 - Secure data handling with Supabase
