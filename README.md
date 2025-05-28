@@ -2,6 +2,9 @@
 
 A modern, dark-themed task management application built with React, TypeScript, Tailwind CSS, and Supabase.
 
+**Deployed link :https://waytodolistmanage.netlify.app/
+Loom video link : https://drive.google.com/file/d/1krWEOkBoTINRVbqMpwUfvc0H_8WFvQwc/view?usp=drive_link**
+
 ## Features
 
 - Social authentication with Google and GitHub
