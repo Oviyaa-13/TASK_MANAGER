@@ -1,6 +1,6 @@
 # Task Manager
 
-A modern, dark-themed task management application built with React, TypeScript, Tailwind CSS, and Supabase.
+A modern, dark-themed task management application built with React, javascript, Tailwind CSS, and Supabase.
 
 **Deployed link** :https://waytodolistmanage.netlify.app/
 
@@ -16,7 +16,7 @@ A modern, dark-themed task management application built with React, TypeScript, 
 
 ## Tech Stack
 
-- React + TypeScript
+- React + javaScript
 - Tailwind CSS
 - Supabase (Database & Auth)
 - Lucide React (icons)
@@ -58,13 +58,15 @@ A modern, dark-themed task management application built with React, TypeScript, 
 
 1. Create a new Supabase project.
 2. In the Table Editor, create a `tasks` table with these columns:
-   - `id` (uuid, primary key)
-   - `title` (text)
-   - `description` (text)
-   - `status` (text)
-   - `created_at` (timestamp, default: now())
-   - `user_id` (uuid or text)
-   - `due_date` (date, nullable)
+ | Column Name | Type     | Notes                |
+|-------------|----------|----------------------|
+| id          | UUID     | Primary Key          |
+| title       | Text     |                      |
+| description | Text     |                      |
+| status      | Text     | e.g., "pending", "done" |
+| created_at  | Timestamp | Default: now()       |
+| user_id     | UUID or Text | FK to users table |
+| due_date    | Date     | Nullable             |
 3. Enable Google and GitHub authentication in the Supabase dashboard.
 4. Set up Row Level Security (RLS) as needed.
 
@@ -80,6 +82,4 @@ yarn build
 
 Deploy the `dist` directory to your preferred hosting service.
 
-## License
-
-MIT
+**This project is a part of a hackathon run by https://www.katomaran.com**
