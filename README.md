@@ -16,7 +16,7 @@ A modern, dark-themed task management application built with React, javascript, 
 
 ## Tech Stack
 
-- React + javaScript
+- React + TypeScript
 - Tailwind CSS
 - Supabase (Database & Auth)
 - Lucide React (icons)
